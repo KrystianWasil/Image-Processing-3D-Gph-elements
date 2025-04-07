@@ -18,6 +18,10 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
+# Link FFTW
+INCLUDEPATH += /opt/homebrew/include   # for M1 Macs (Apple Silicon)
+LIBS += -L/opt/homebrew/lib -lfftw3   # for M1 Macs (Apple Silic
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
