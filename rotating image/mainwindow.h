@@ -19,10 +19,8 @@ public:
 
 public slots:
     void open_image();
-    void test();
-    void skalowanie();
-    void przesuniecieDoSrodka();
-    void obrocWzgledemSrodka(double);
+    void skalowanie(int);
+    void obrocWzgledemSrodka(int);
 
 private:
     Ui::MainWindow *ui;
