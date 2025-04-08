@@ -33,6 +33,7 @@ protected:
     void resizeEvent(QResizeEvent*);
     void paintEvent(QPaintEvent *);
     void drawLine(QPoint p1, QPoint p2);
+    void drawCircle(QPoint p1, QPoint p2);
 
 };
 
